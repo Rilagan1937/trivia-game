@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Auto Trivia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Trivia Game Auto Edition</h1>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg start-button" href="#" role="button">Start Game!</a>
+        <span id="timer">Time Remaining:
+            <span id="time-left"></span>
+        </span>
+    </div>
+
+    
+    <div class="card text-center qs">
+        <h3>Japanese automaker that created the iconic NSX sportscar.</h3>
+        <br>
+        <form>
+            <input class="qs1c" type="radio" name="q1" value="Honda"> Honda
+            <input class="qs1c" type="radio" name="q1" value="Nissan"> Nissan
+            <input class="qs1c" type="radio" name="q1" value="Mitsubishi"> Mitsubishi
+            <input class="qs1c" type="radio" name="q1" value="Toyota"> Toyota
+        </form>   
+        
+    </div>
+    <div class="card text-center qs">
+        <h3>What is the fastest production car that can legally sport a license plate?</h3>
+        <br>
+        <form>
+        <input class="qs1c" type="radio" name="q2" value="agera"> Koenigsegg Agera RS
+        <input class="qs1c" type="radio" name="q2" value="chiron"> Bugatti Chiron
+        <input class="qs1c" type="radio" name="q2" value="f5"> Hennessey Venom F5
+        <input class="qs1c" type="radio" name="q2" value="gt"> Hennessey Venom GT
+        </form>
+    </div>
+    <div class="card text-center qs">
+        <h3>Which Mustang production year sold for the most amount of money?</h3>
+        <br>
+        <form>
+        <input class="qs1c" type="radio" name="q3" value="1965"> 1965
+        <input class="qs1c" type="radio" name="q3" value="1967"> 1967
+        <input class="qs1c" type="radio" name="q3" value="1986"> 1986
+        <input class="qs1c" type="radio" name="q3" value="2018"> 2018
+        </form>
+    </div>
+    <div class="card text-center qs">
+        <h3>What is the quickest production car from 0 to 60 mph?</h3>
+        <br>
+        <form>
+        <input class="qs1c" type="radio" name="q4" value="huracan"> Lamborghini Huracán Performante
+        <input class="qs1c" type="radio" name="q4" value="demon"> Dodge Challenger SRT Demon
+        <input class="qs1c" type="radio" name="q4" value="chiron"> Bugatti Chiron
+        <input class="qs1c" type="radio" name="q4" value="p100d"> Tesla Model S P100D 
+        </form>
+        
+    </div>
+    <div class="container text-center p-5">
+        <div class="row">
+            <div class="col">
+                <button id="submit" type="button" class="btn btn-secondary">Submit Answers!</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="card text-center end">
+        <h3>End Game Stuff.....</h3>
+        
+    </div>
+
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
